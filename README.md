@@ -25,7 +25,7 @@ Röststyrning och diktering för macOS med hjälp av Whisper AI. Fungerar offlin
 ```bash
 # 1. Klona detta repo
 cd ~
-git clone https://github.com/DIN-ANVÄNDARNAMN/whisper-dictation-mac.git
+git clone https://github.com/Bruscan/whisper-dictation-mac.git
 cd whisper-dictation-mac
 
 # 2. Kör installationsskriptet
@@ -60,7 +60,7 @@ bash ./models/download-ggml-model.sh base
 
 # 4. Klona detta repo
 cd ~
-git clone https://github.com/DIN-ANVÄNDARNAMN/whisper-dictation-mac.git
+git clone https://github.com/Bruscan/whisper-dictation-mac.git
 cd whisper-dictation-mac
 chmod +x start-dictation.sh
 ```
@@ -194,7 +194,7 @@ Om du vill att diktering ska vara alltid tillgänglig:
 </plist>
 ```
 
-2. Byt ut `DITT-ANVÄNDARNAMN` mot ditt riktiga användarnamn
+2. Byt ut `DITT-ANVÄNDARNAMN` mot ditt riktiga macOS användarnamn (t.ex. `$(whoami)`)
 
 3. Ladda LaunchAgent:
 ```bash
@@ -300,7 +300,7 @@ MIT License - se [LICENSE](LICENSE) för detaljer
 
 Om du stöter på problem:
 1. Kolla [Felsökning](#-felsökning) ovan
-2. Sök bland [Issues](https://github.com/DIN-ANVÄNDARNAMN/whisper-dictation-mac/issues)
+2. Sök bland [Issues](https://github.com/Bruscan/whisper-dictation-mac/issues)
 3. Skapa en ny issue med:
    - Vilken macOS-version du kör
    - Felmeddelanden från terminalen
